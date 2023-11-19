@@ -8,6 +8,7 @@ module com.dvc.financialcalculator {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     requires com.almasb.fxgl.all;
+    requires java.prefs;
 
     opens com.dvc.financialcalculator to javafx.fxml;
     exports com.dvc.financialcalculator;
